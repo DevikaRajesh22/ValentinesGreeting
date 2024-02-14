@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day</title>
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: rgb(164, 94, 94);
+        }
+
+        .main-body {
+            background-color: rgb(235, 196, 234);
+            height: 250px;
+            width: 500px;
+            margin-left: 500px;
+            text-align: center;
+            padding: 20px;
+            border-radius: 30px;
+        }
+
+        img {
+            width: 250px;
+            height: 250px;
+        }
+
+        .heading {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .btn {
+            width: 70px;
+            height: 30px;
+            border-radius: 15px;
+            background-color: white;
+            color: black;
+        }
+
+        .btn:hover {
+            background-color: rgb(222, 118, 118);
+        }
+    </style>
+    <div class="main-image">
+        <img src="/image.png">
+    </div>
+    <div class="main-body">
+        <h2 class="heading">Will you be my rest operator? Cause I want to spend the rest of my life with you...</h2>
+        <div class="button">
+            <button class="btn" onclick='yesFunction()'>Yes</button>
+            <button class="btn" onclick='noFunction()'>No</button>
+        </div>
+    </div>
+</body>
+<script>
+    function yesFunction() {
+        alert('I will always love you...');
+    };
+    function noFunction() {
+        alert('I will still love you anyway...');
+    };
+</script>
+
+</html>
